@@ -208,6 +208,55 @@ body {
   margin: 20px auto;
 }
 
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: grid;
+  grid-template-columns: repeat(4, 0fr); */
+  text-align: center;
+  gap: 50px;
+  padding: 10px;
+}
+.main-div p {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.main-img {
+  border-radius: 50%;
+  border: 1px solid yellow;
+}
+
+/* <!-- run extra --> */
+.main-run {
+  margin-top: 100px;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.text-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 25px;
+}
+.img-container img {
+  height: 370px;
+  border-radius: 15px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.joining {
+  padding: 15px 50px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 30px;
+}
+
 /* Responsive mobile */
 @media screen and (max-width: 576px) {
   .main-nav {
