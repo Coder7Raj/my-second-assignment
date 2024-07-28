@@ -328,6 +328,7 @@ body {
   background-size: cover;
   height: 320px;
   width: 400px;
+  border-radius: 7px;
 }
 
 .benefits-heading {
@@ -366,6 +367,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 7px;
+
   height: 320px;
   width: 400px;
 }
@@ -397,6 +400,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 7px;
+
   height: 320px;
   width: 400px;
 }
@@ -846,5 +851,39 @@ footer,
   }
   .div-fit {
     width: auto;
+  }
+  /* section of exercise benefitsd starts here */
+  .benefits-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 20px; */
+  }
+  .benefits-main-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 20px; */
+  }
+  .benefits-container-1,
+  .benefits-container-2,
+  .benefits-container-3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 20px;  */
+    margin: 0 auto;
+  }
+  /* .benefits-container-1,
+  .benefits-container-2,
+  .benefits-container-3 {
+    display: flex;
+    flex-direction: column;
+  } */
+  .benefits-img1,
+  .benefits-img2,
+  .benefits-img3 {
+    height: 250px;
+    width: 300px;
+  }
+  .benefits-description {
+    width: 150%;
   }
 }
