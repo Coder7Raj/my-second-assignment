@@ -271,6 +271,138 @@ body {
   border-radius: 30px;
 }
 
+/* section of exercise benefitsd starts here */
+.benefits-container {
+  /* border: 2px solid red; */
+  padding: 10px;
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.benefits-headings-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 55px;
+}
+.benefits-container .benefits-main-heading,
+.benefits-main-description {
+  text-align: center;
+  line-height: 20px;
+}
+.benefits-main-heading {
+  color: white;
+}
+.benefits-main-description {
+  color: gray;
+}
+.benefits-container-1 {
+  /* border: 2px solid aqua; */
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+.benefits-img1 {
+  width: 60%;
+  /* border: 1px solid yellow; */
+}
+.benefits-img-content1 {
+  width: 60%;
+  /* border: 1px solid goldenrod; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.benefits-img1 {
+  background-image: url(../images/ajaj-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  width: 400px;
+}
+
+.benefits-heading {
+  color: white;
+  line-height: 20px;
+}
+.benefits-description {
+  color: gray;
+  line-height: 20px;
+}
+
+.benefits-container-2 {
+  /* border: 2px solid whitesmoke; */
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+.benefits-img2 {
+  width: 60%;
+  /* border: 1px solid yellow; */
+}
+.benefits-img-content2 {
+  width: 60%;
+  /* border: 1px solid goldenrod; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.benefits-img2 {
+  background-image: url(../images/ajaj-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  width: 400px;
+}
+
+.benefits-container-3 {
+  /* border: 2px solid green; */
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+.benefits-img3 {
+  width: 60%;
+  /* border: 1px solid yellow; */
+}
+.benefits-img-content3 {
+  width: 60%;
+  /* border: 1px solid goldenrod; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.benefits-img3 {
+  background-image: url(../images/ajaj-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  width: 400px;
+}
+
+/* section of exercise benefitsd ends here */
+
 /* Bmi---------- */
 /* bmi-calculator */
 
