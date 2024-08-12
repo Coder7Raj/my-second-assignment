@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&family=Parisienne&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* color: white; */
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background: rgb(26, 25, 25);
 }
-/* this is for all section*/
+/* ........this is for all section.......*/
 .first-color {
   color: rgb(255, 255, 255);
 }
@@ -19,16 +20,16 @@ body {
   color: rgba(120, 120, 120, 0);
 }
 .third-color {
-  background-color: rgb(255, 94, 0);
+  background-color: rgb(39, 27, 20);
 }
-/* main div 1 section */
+/*..... main div 1 section .......*/
 .main-div-one {
   background: rgb(26, 25, 25);
   max-width: 1250px;
   margin: 0 auto;
 }
-/* header section starts */
-/* nav section */
+/* ...............header section starts .............*/
+/*............ nav section ..........*/
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -37,7 +38,7 @@ body {
 }
 .head-tittle {
   color: rgb(255, 94, 0);
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .nav-links {
   display: flex;
@@ -62,7 +63,7 @@ body {
   border: none;
   border-radius: 30px;
 }
-/* banner section */
+/* .............banner section .............*/
 
 .banner {
   display: flex;
@@ -111,6 +112,7 @@ body {
   font-size: 1.2rem;
   border: none;
   border-radius: 30px;
+  background-color: rgb(255, 94, 0);
 }
 .download {
   padding: 10px 15px;
@@ -121,7 +123,7 @@ body {
   background: rgb(26, 25, 25);
 }
 
-/* banner img */
+/*...... banner img ........*/
 .banner-img {
   width: 50%;
 }
@@ -186,21 +188,22 @@ body {
   display: none;
 }
 
-/* Habit --------------- */
+/*............... Habit ...............*/
 
-.hb {
-  font-size: 3rem;
+.habit-heading {
+  font-size: 2.5rem;
   text-align: center;
   color: white;
   margin-top: 30px;
 }
-.ch {
-  font-size: 0.8rem;
+.habit-des {
+  font-size: 1rem;
   text-align: center;
   color: gray;
   width: 65%;
   margin: 20px auto;
   margin-bottom: 20px;
+  line-height: 20px;
 }
 .img-tittle {
   color: white;
@@ -208,7 +211,8 @@ body {
 }
 .img-des {
   color: gray;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  line-height: 20px;
 }
 .main-div {
   display: flex;
@@ -223,7 +227,7 @@ body {
   border-radius: 50%;
 }
 
-/* <!-- run extra --> */
+/*.......... run extra ...........*/
 .main-run {
   margin-top: 100px;
   display: flex;
@@ -244,16 +248,19 @@ body {
 }
 .text-btn-container h1 {
   color: white;
+  font-size: 2.5rem;
 }
 .text-btn-container p {
   color: gray;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  line-height: 20px;
 }
 .img-container {
   width: 40%;
 }
-.mp {
+.run-des {
   width: 80%;
+  line-height: 25px;
 }
 .img-container img {
   height: 370px;
@@ -269,15 +276,14 @@ body {
   font-size: 1.2rem;
   border: none;
   border-radius: 30px;
+  background-color: rgb(255, 94, 0);
 }
 
-/* section of exercise benefitsd starts here */
-.benefits-container {
-  /* border: 2px solid red; */
-  padding: 10px;
+/*......... section of exercise benefitsd starts here ..........*/
+.benefits-main-container {
+  padding: 5px;
   background-color: rgba(34, 34, 34, 1);
   border-radius: 10px;
-  margin-top: 70px;
   margin-bottom: 70px;
 }
 .benefits-headings-items {
@@ -285,41 +291,46 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 25px;
-  margin-bottom: 55px;
-}
-.benefits-container .benefits-main-heading,
-.benefits-main-description {
   text-align: center;
+  gap: 20px;
   line-height: 20px;
+  margin-top: 70px;
+  margin-bottom: 20px;
 }
+
 .benefits-main-heading {
   color: white;
+  font-size: 2.5rem;
 }
 .benefits-main-description {
   color: gray;
+  font-size: 1rem;
+  line-height: 20px;
 }
-.benefits-container-1 {
-  /* border: 2px solid aqua; */
-  padding: 10px;
+.benefits-containers {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+.benefits-container-1,
+.benefits-container-2,
+.benefits-container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
 }
-.benefits-img1 {
-  width: 60%;
-  /* border: 1px solid yellow; */
-}
-.benefits-img-content1 {
-  width: 60%;
-  /* border: 1px solid goldenrod; */
+
+.benefits-contents {
+  width: 65%;
+  gap: 20px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 15px;
 }
 .benefits-img1 {
   background-image: url(../images/ajaj-1.jpg);
@@ -333,88 +344,67 @@ body {
 
 .benefits-heading {
   color: white;
-  line-height: 20px;
+  font-size: 1.7rem;
 }
 .benefits-description {
   color: gray;
+  font-size: 1rem;
   line-height: 20px;
 }
 
-.benefits-container-2 {
-  /* border: 2px solid whitesmoke; */
-  padding: 10px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 10px;
-}
-.benefits-img2 {
-  width: 60%;
-  /* border: 1px solid yellow; */
-}
-.benefits-img-content2 {
-  width: 60%;
-  /* border: 1px solid goldenrod; */
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
-}
 .benefits-img2 {
   background-image: url(../images/ajaj-2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 7px;
-
   height: 320px;
   width: 400px;
 }
 
-.benefits-container-3 {
-  /* border: 2px solid green; */
-  padding: 10px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 10px;
-}
-.benefits-img3 {
-  width: 60%;
-  /* border: 1px solid yellow; */
-}
-.benefits-img-content3 {
-  width: 60%;
-  /* border: 1px solid goldenrod; */
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
-}
 .benefits-img3 {
   background-image: url(../images/ajaj-3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 7px;
-
   height: 320px;
   width: 400px;
 }
 
 /* section of exercise benefitsd ends here */
 
-/* Bmi---------- */
-/* bmi-calculator */
-
+/*.......... Bmi............ */
+/*........... bmi-calculator ..............*/
+.bmi-calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bmi-heading-contents {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 25px;
+  padding: 5px 5px 30px 5px;
+}
+.bmi-main-heading {
+  color: white;
+  font-size: 2.5rem;
+}
+.bmi-main-des {
+  color: gray;
+  font-size: 1rem;
+  line-height: 20px;
+}
 .bmi-main {
   background-color: rgba(34, 34, 34, 1);
   width: 100%;
-  height: 320px;
+  /* height: 320px; */
 }
 .bmi-content {
   max-width: 1250px;
@@ -427,6 +417,7 @@ body {
 
 .table {
   margin: 20px 0px;
+  width: 50%;
 }
 table {
   width: 100%;
@@ -448,15 +439,17 @@ td {
 }
 
 .bmi-h {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-align: center;
   margin-bottom: 10px;
   color: white;
 }
 .pi {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: gray;
+  line-height: 20px;
 }
+
 .ch-head {
   display: flex;
   flex-direction: column;
@@ -465,6 +458,7 @@ td {
   gap: 10px;
   width: 80%;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .m-ch input {
@@ -475,6 +469,52 @@ td {
   outline: none;
   border: none;
   border-radius: 10px;
+}
+
+.m-ch2 {
+  position: relative;
+  display: inline-block;
+}
+
+.m-ch2 input {
+  padding: 10px 30px 10px 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+  border: none;
+  width: 100%;
+  pointer-events: none;
+}
+
+.m-ch2 .fa-chevron-down {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 15px;
+  color: #c9c9c9ab;
+}
+
+.m-ch1 {
+  position: relative;
+  display: inline-block;
+}
+.m-ch1 input {
+  padding: 10px 30px 10px 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+  border: none;
+  pointer-events: none;
+}
+.m-ch1 .fa-chevron-down {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 15px;
+  color: #c9c9c9ab;
+  pointer-events: none;
 }
 
 .mm-ch {
@@ -490,7 +530,7 @@ td {
 }
 
 /* section */
-/* meet team */
+/* ...............meet team .............*/
 .meet-team {
   margin-top: 50px;
 }
@@ -500,6 +540,15 @@ td {
   text-align: center;
   gap: 20px;
   padding: 30px;
+}
+.team-tittle {
+  font-size: 2.5rem;
+}
+.team-des {
+  font-size: 1rem;
+  line-height: 20px;
+  color: gray;
+  padding: 10px;
 }
 .team-imgs-container {
   display: flex;
@@ -552,7 +601,7 @@ td {
   background-image: url(../images/trainer6.png);
 }
 
-/* this is footer part */
+/*.............. this is footer part ............*/
 footer {
   margin-top: 50px;
 }
@@ -560,6 +609,12 @@ footer,
 .main-foot-div,
 .copyright {
   background-color: rgba(30, 30, 28, 1);
+}
+.weight {
+  font-weight: normal;
+}
+.font {
+  font-size: 1.7rem;
 }
 .main-foot-div {
   display: flex;
@@ -583,6 +638,7 @@ footer,
 }
 .div-start ul li {
   color: gray;
+  font-size: 1rem;
 }
 .div-get-start {
   display: flex;
@@ -591,6 +647,7 @@ footer,
 }
 .div-get-start ul li {
   color: gray;
+  font-size: 1rem;
 }
 .div-start ul {
   display: flex;
@@ -621,8 +678,8 @@ footer,
   font-size: 0.9rem;
 }
 
-/* responsive part */
-/* Responsive mobile */
+/* ............responsive part ..............*/
+/* ..........Responsive mobile......... */
 @media screen and (max-width: 576px) {
   .main-nav {
     width: full;
@@ -637,7 +694,7 @@ footer,
     color: white;
   }
 
-  /* Banner --------- */
+  /* ............Banner........ */
 
   .banner {
     display: flex;
@@ -667,7 +724,6 @@ footer,
   }
   .banner-img {
     width: 90%;
-    /* border: 1px solid red; */
   }
   .banner-img img {
     margin-top: 30px;
@@ -688,9 +744,7 @@ footer,
     left: 2%;
     border-radius: 13px;
   }
-  /* .video h3 {
-    font-size: 15px;
-  } */
+
   .v {
     font-size: 0.8rem;
   }
@@ -721,10 +775,6 @@ footer,
     flex-direction: column;
   }
 
-  /* .workout h3 {
-    font-size: 8px;
-  } */
-
   .banner-tittle {
     color: white;
     font-size: 2.7rem;
@@ -733,8 +783,17 @@ footer,
   }
   .style-shape {
     font-family: "Parisienne", cursive;
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
+  }
+  .b-title {
+    padding: 10px 80px 10px 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 180%;
+    line-height: 20px;
+    margin-top: 160px;
   }
   .banner-description {
     color: gray;
@@ -743,7 +802,6 @@ footer,
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
     gap: 20px;
     width: full;
   }
@@ -753,6 +811,7 @@ footer,
   }
   .join2 {
     padding: 12px 12px;
+    background-color: rgb(255, 94, 0);
     width: 140px;
     font-weight: 300;
     font-size: 1rem;
@@ -769,19 +828,12 @@ footer,
     background: rgb(26, 25, 25);
     border: 1px solid #ffffff70;
   }
-  .b-title {
-    padding: 10px 80px 10px 4px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    width: 180%;
-    line-height: 20px;
-  }
+
   .b-title .banner-tittle {
     line-height: 40px;
   }
 
-  /* Habit........ */
+  /* .........Habit........ */
   .main-div {
     display: flex;
     flex-direction: column;
@@ -796,7 +848,7 @@ footer,
     gap: 20px;
   }
 
-  /* run------ */
+  /* ..........run..........*/
   .main-run {
     display: flex;
     flex-direction: column;
@@ -818,7 +870,44 @@ footer,
   .img-container img {
     height: 60%;
   }
-  /* bmi-calculator */
+  /* .....section of exercise benefitsd ends here...... */
+  .benefits-headings-items {
+    padding-bottom: 35px;
+  }
+  .benefits-headings-items .benefits-main-heading,
+  .benefits-main-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+  }
+  .benefits-container-1,
+  .benefits-container-2,
+  .benefits-container-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .benefits-contents {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+  }
+
+  .benefits-img1,
+  .benefits-img2,
+  .benefits-img3 {
+    height: 280px;
+    width: 320px;
+  }
+  /*........... bmi-calculator ...........*/
   .bmi-calculator {
     margin-top: 100px;
   }
@@ -827,19 +916,25 @@ footer,
     flex-direction: column;
     width: auto;
     gap: 70px;
-  } /* meet team */
-  .meet-team {
-    margin-top: 330px;
   }
+  .bmi-calulating {
+    padding: 5px;
+  }
+  /* ...... meet team ....... */
+  .meet-team {
+    margin-top: 70px;
+  }
+
   .team-imgs {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .team-img-four {
     display: none;
   }
-  /* footer part starts */
+  /*......... footer part starts ......*/
   footer {
     padding: 20px;
     margin-top: 45px;
@@ -851,39 +946,5 @@ footer,
   }
   .div-fit {
     width: auto;
-  }
-  /* section of exercise benefitsd starts here */
-  .benefits-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    /* gap: 20px; */
-  }
-  .benefits-main-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    /* gap: 20px; */
-  }
-  .benefits-container-1,
-  .benefits-container-2,
-  .benefits-container-3 {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    /* gap: 20px;  */
-    margin: 0 auto;
-  }
-  /* .benefits-container-1,
-  .benefits-container-2,
-  .benefits-container-3 {
-    display: flex;
-    flex-direction: column;
-  } */
-  .benefits-img1,
-  .benefits-img2,
-  .benefits-img3 {
-    height: 250px;
-    width: 300px;
-  }
-  .benefits-description {
-    width: 150%;
   }
 }
