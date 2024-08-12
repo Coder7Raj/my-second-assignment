@@ -413,6 +413,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 150px;
+  padding: 15px;
 }
 
 .table {
@@ -456,7 +457,7 @@ td {
   justify-content: center;
   align-items: start;
   gap: 10px;
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
   padding-bottom: 20px;
 }
@@ -522,11 +523,21 @@ td {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5px;
+  margin-bottom: 30px;
 }
 
 .last {
   display: grid;
   grid-column: span 2;
+}
+.calculate-btn {
+  padding: 10px 25px;
+  font-weight: 300;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(255, 94, 0);
 }
 
 /* section */
