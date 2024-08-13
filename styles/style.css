@@ -22,6 +22,9 @@ body {
 .third-color {
   background-color: rgb(39, 27, 20);
 }
+.gray {
+  color: gray;
+}
 /*..... main div 1 section .......*/
 .main-div-one {
   background: rgb(26, 25, 25);
@@ -83,7 +86,7 @@ body {
   gap: 20px;
   width: 50%;
 }
-.kjkj {
+.banner-contents-part {
   width: 80%;
   display: flex;
   justify-content: center;
@@ -95,6 +98,7 @@ body {
   font-size: 4.3rem;
   font-weight: 800;
   width: 100%;
+  margin-bottom: 15px;
 }
 
 .style-shape {
@@ -718,7 +722,7 @@ footer,
     height: 1200px;
     padding: 10px 0px;
   }
-  .kjkj {
+  .banner-contents-part {
     display: flex;
     flex-direction: column;
     justify-content: center;
