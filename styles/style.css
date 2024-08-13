@@ -390,7 +390,7 @@ body {
   margin-top: 100px;
 }
 .bmi-heading-contents {
-  width: 80%;
+  width: 65%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -557,6 +557,8 @@ td {
   text-align: center;
   gap: 20px;
   padding: 30px;
+  width: 90%;
+  margin: 0 auto;
 }
 .team-tittle {
   font-size: 2.5rem;
